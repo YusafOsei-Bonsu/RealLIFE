@@ -41,7 +41,8 @@
         android:selectAllOnFocus="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/username" />
+        app:layout_constraintTop_toBottomOf="@+id/username"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/login"
@@ -54,13 +55,11 @@
         android:layout_marginBottom="64dp"
         android:enabled="false"
         android:text="@string/log_in"
-        android:textColor="#942F76"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.458"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password"
-        app:layout_constraintVertical_bias="0.019" />
+        app:layout_constraintVertical_bias="0.118" />
 
     <ProgressBar
         android:id="@+id/loading"
@@ -77,53 +76,4 @@
         app:layout_constraintStart_toStartOf="@+id/password"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.3" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="24dp"
-        android:text="TextView"
-        app:layout_constraintStart_toStartOf="@+id/password"
-        app:layout_constraintTop_toBottomOf="@+id/login"
-        tools:text="Forgot your login details?" />
-
-    <TextView
-        android:id="@+id/get help loggin in"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="24dp"
-        android:text="TextView"
-        android:textColor="#942F76"
-        android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/textView"
-        app:layout_constraintTop_toBottomOf="@+id/login"
-        tools:text="Get help logging in." />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/LogoMakr_6C1DB0"
-        tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="87dp" />
-
-    <Button
-        android:id="@+id/registering"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="84dp"
-        android:layout_marginRight="84dp"
-        android:alpha="HJ"
-        android:background="#FFFFFF"
-        android:text="New to realLIFE? Sign up here."
-        android:textAllCaps="false"
-        android:textColor="#942f76"
-        android:textColorHighlight="#90FFFFFF"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="649dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
