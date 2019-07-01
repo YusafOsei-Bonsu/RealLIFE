@@ -129,7 +129,6 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:alpha="HJ"
         android:background="#FFFFFF"
         android:text="New to realLIFE? Sign up here."
         android:textAllCaps="false"
