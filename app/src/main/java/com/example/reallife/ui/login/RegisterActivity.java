@@ -26,7 +26,7 @@ import com.example.reallife.R;
 import com.example.reallife.ui.login.LoginViewModel;
 import com.example.reallife.ui.login.LoginViewModelFactory;
 
-public class LoginActivity extends AppCompatActivity {
+public class RegisterActivity extends AppCompatActivity {
 
     private LoginViewModel loginViewModel;
 
